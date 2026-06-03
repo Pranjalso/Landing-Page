@@ -1,9 +1,9 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import ProcessSection from "./components/ProcessSection";
-import ServicesSection from "./components/ServicesSection";
-import BlogSection from "./components/BlogSection";
-import Footer from "./components/Footer";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import ProcessSection from "./Components/ProcessSection";
+import ServicesSection from "./Components/ServicesSection";
+import BlogSection from "./Components/BlogSection";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
