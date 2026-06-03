@@ -1,0 +1,56 @@
+.particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  filter: blur(2px);
+  animation: float linear infinite;
+}
+
+.particle-1 {
+  background: #ff4d4d;
+  box-shadow: 0 0 12px #ff4d4d;
+}
+
+.particle-2 {
+  background: #00d26a;
+  box-shadow: 0 0 12px #00d26a;
+}
+
+.particle-3 {
+  background: #4da3ff;
+  box-shadow: 0 0 12px #4da3ff;
+}
+
+.particle-4 {
+  background: #ffd500;
+  box-shadow: 0 0 12px #ffd500;
+}
+
+.particle-5 {
+  background: #d94dff;
+  box-shadow: 0 0 12px #d94dff;
+}
+
+.particle-6 {
+  background: #ff9d3a;
+  box-shadow: 0 0 12px #ff9d3a;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(30px, -50px) rotate(90deg);
+  }
+  50% {
+    transform: translate(-30px, -80px) rotate(180deg);
+  }
+  75% {
+    transform: translate(20px, -40px) rotate(270deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
